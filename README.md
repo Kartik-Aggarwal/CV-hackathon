@@ -8,7 +8,7 @@ The repository contains 3 IPYNB files
 Rest other are **utils** and **tools** which are used along the code
 
 **Yolov5**\
-This file contains code to **main approach** used for detection\
+* ###This file contains code to **main approach** used for detection\
 *NOTE* It is **highly** recomended that you upload and execute this file on **Google Colab** only
 
 **Other_Approaches**\
