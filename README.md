@@ -20,3 +20,10 @@ Rest other are **utils** and **tools** which are used along the code
 * All the usage instructions are commented inside the file
 
 ****All the 3 files are well commented and code instructions and usage of other files present in this repository is directed in them**
+
+
+### **Final_results_csv_file**
+This contains the **defect_box** and **defect_type** csv files
+
+### **Presentation** 
+This is uploaded as **AlphaQ.pptx**
