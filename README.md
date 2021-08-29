@@ -21,7 +21,11 @@ Rest other are **utils** and **tools** which are used along the code
 
 ****All the 3 files are well commented and code instructions and usage of other files present in this repository is directed in them**
 
+## Approaches used
 
+### 1. Using Morphological Operations
+It is observed that the defect has different texture than the fabric. This is the basis of this approach.
+Combination of Sobelx and Sobely operations are applied and binary thresholding is done. This seperated out the defect from the fabric.  
 ### **Final_results_csv_file**
 This contains the **defect_box** and **defect_type** csv files
 
