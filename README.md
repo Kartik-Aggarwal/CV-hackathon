@@ -34,22 +34,22 @@ This is uploaded as **AlphaQ.pptx**
 * It is observed that the defect has different texture than the fabric. This is the basis of this approach.
 * Combination of Sobelx and Sobely operations are applied and binary thresholding is done. This seperated out the defect from the fabric.
 The following figure shows the results\
-!["1_1"](https://github.com/Kartik-Aggarwal/CV-hackathon/blob/master/readme_images/1_1.png)
+<img src="https://github.com/Kartik-Aggarwal/CV-hackathon/blob/master/readme_images/1_1.png" width=85% height=50%>
 
 * Borders of image contains noise, thus center portion of the frame is taken as ROI.
 * Image is divided into rectangles and pixel intensity of each is noted. Region with highest pixel intensity is considered to the the defect.
 The following image shows the same.
-!["1_2](https://github.com/Kartik-Aggarwal/CV-hackathon/blob/master/readme_images/1_2.png)
+<img src="https://github.com/Kartik-Aggarwal/CV-hackathon/blob/master/readme_images/1_2.png" width=85% height=50%>
 
 Following are the results of this method.
-!["1_3"](https://github.com/Kartik-Aggarwal/CV-hackathon/blob/master/readme_images/1_3.png)
+<img src="https://github.com/Kartik-Aggarwal/CV-hackathon/blob/master/readme_images/1_3.png" width=85% height=50%>
+
 
 ### 2. Using Feature Matching
 
 * Since all defects share a common texture which is different from the fabric, feature matching can be applied.
 * Points in the image with features similar to the defects are returned 
-
-!["2_1"](https://github.com/Kartik-Aggarwal/CV-hackathon/blob/master/readme_images/2_1.png)
+<img src="https://github.com/Kartik-Aggarwal/CV-hackathon/blob/master/readme_images/2_1.png" width=85% height=50%>
 
 ### 3. Classification using Linear Binary Patterns (lbp)
 
@@ -59,4 +59,8 @@ Following are the results of this method.
 * The final ROI is taken as the intersection of all ROIs
 
 Following image depects the same
-![3_1](https://github.com/Kartik-Aggarwal/CV-hackathon/blob/master/readme_images/3_1.png)
+<img src="https://github.com/Kartik-Aggarwal/CV-hackathon/blob/master/readme_images/3_1.png" width=85% height=50%>
+
+### 4. YOLOv5
+* YOLOv5, an open sourced object detection  algorithm by Ultralytics is used
+* Efficient and accurate than other object detection algorithms like rCNN, F-rCNN etc
