@@ -64,3 +64,5 @@ Following image depects the same
 ### 4. YOLOv5
 * YOLOv5, an open sourced object detection  algorithm by Ultralytics is used
 * Efficient and accurate than other object detection algorithms like rCNN, F-rCNN etc
+
+![gif](https://github.com/Kartik-Aggarwal/CV-hackathon/blob/master/readme_images/defects_yolo.gif)
